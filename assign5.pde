@@ -7,6 +7,7 @@ int[] enemyY = new int[enemyCount];
 void setup () {
 	size(640, 480) ;
 	enemy = loadImage("img/enemy.png");
+	bg1 = loadImage("img/bg1.png");
 	addEnemy(0);
 }
 
